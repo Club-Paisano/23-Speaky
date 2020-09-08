@@ -1,0 +1,38 @@
+:root {
+  --base1: #fce38a;
+  --base2: #0e5f76;
+  --base3: #083d56;
+  --base4: #0c2233;
+  --spanWidth: 10px;
+  --spanHeight: 10px;
+  font-size: 18px;
+}
+
+
+body {
+  background-color: var(--base2);
+  color: var(--base1);
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+section {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--base4);
+}
+
+.highlight {
+  display: inline-block;
+  border-radius: 30px;
+  background-color: var(--base3);
+  /* Responsible for making the lines move slightly when they are clicked */
+  padding: .5px;
+  width: var(--spanWidth);
+  height: var(--spanHeight);
+
+}
